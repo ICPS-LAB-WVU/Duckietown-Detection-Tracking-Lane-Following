@@ -1,0 +1,26 @@
+# Vehicle Docker image only needs the ROS package, dependency manifests, and launchers.
+**
+
+!Dockerfile
+!dependencies-apt.txt
+!dependencies-py3.txt
+!dependencies-py3.dt.txt
+!packages/
+!packages/**
+!ByteTrack/
+!ByteTrack/**
+!segmentation/
+!segmentation/**
+!weight/
+!weight/**
+!lane_pipeline.py
+!lane_constants.py
+!visual.py
+!launchers/
+!launchers/**
+
+**/__pycache__/
+*.py[cod]
+segmentation/results/
+segmentation/duckietown_lane_seg.egg-info/
+weight/outputs/
